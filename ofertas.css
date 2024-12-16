@@ -1,0 +1,125 @@
+.title-offert{
+  color: #0a3d9e;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 60px;
+}
+/* .title-offert-two{
+  color: red;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 60px;
+} */
+.p-description-offert{
+  color: #006cff;
+  font-size: 20px
+}
+.container-offert{
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+}
+.card-offert{
+  border: solid 2px #b3e1ff;
+  border-radius: 10px;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+}
+.btn-offert{
+  background-color: #0055fb;
+  color: white;
+  font-weight:500;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  margin: auto;
+}
+.btn-offert:hover{
+  background-color: #b3e1ff;
+  color: #0055fb;
+}
+.btn-offert-two{
+  background-color: #0055fb;
+  color: white;
+  font-weight:500;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  font-size: large;
+}
+.btn-offert-two:hover{
+  background-color: #b3e1ff;
+  color: #0055fb;
+}
+.title-second-offert{
+  color: #006cff;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+.services-offert{
+  color:#188fff;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-family:"Lato", sans-serif;
+
+}
+.col-offert{
+  background-color: #b3e1ff !important;
+  color:#0a3d9e !important;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.subtitle-functions{
+  color: #0a3d9e;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+
+}
+.p-functions{
+  color: #006cff;
+}
+.p-benefit{
+  line-height: 1.8;
+  color: #0344ca;
+  margin: 20px;
+  font-size: 18px;
+  list-style: none;
+}
+.public-offert{
+  color: #006cff;
+}
+.public-offert strong{
+  color: #0a3d9e;
+}
+.p-description-mantenimiento{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify; 
+  line-height: 1.8; 
+  font-size: 18px; 
+  font-weight: 400;
+  color: #0055fb;
+}
+.card-header{
+  background-color: transparent !important;
+}
+.card-body{
+  list-style: none;
+}
+.card-footer{
+  background-color: transparent !important;
+}

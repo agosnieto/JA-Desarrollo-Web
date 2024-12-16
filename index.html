@@ -1,105 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-    <title>JA | Desarrollo Web</title>
-    <link rel="shortcut icon" href="img/bulbo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="shortcut icon" href="./img/bulbo.png" type="image/x-icon">
+  <title>JA | Desarrollo Web</title>
 </head>
 <body>
-    <header class="container_header" id="header_nav">
-        <img src="img/logo_principal_copia.png" id="logo" alt="">
-        <nav class="nav_page">
-                <li><a href="#header_nav"><img src="img/casa.png" width="20px" alt=""></a></li>
-                <li><a href="#sobre_me" id="sobre_me_link"><img src="img/usuario.png" width="20px" alt=""></a></li>
-                <li><a href="#educacion" id="educacion_link"><img src="img/sombrero-de-graduacion.png" width="22px" alt=""></a></li>
-                <li><a href="#proyectos" id="proyectos_link"><img src="img/portafolio-de-servicios.png" width="20px" alt=""></a></li>
-                <li><a href="#contacto" id="contacto_link"><img src="img/avion-de-papel.png" width="20px" alt=""></a></li>
-        </nav>
-        <div class="extra">
-            <h1 id="name">Hola, soy Jael Agostina</h1>
-            <h2 id="profesion">Desarrolladora Frontend</h2>
-            <button id="button_more_about_me"><a href="#sobre_me">MORE ABOUT ME</a></button>
+  <header class="dark-section">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid d-flex">
+        <a class="navbar-brand" href="#"><img src="img/_Logo_Página_web_copia-sf.png" width="250px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#services" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SERVICIOS
+              </a>
+              <ul class="dropdown-menu" style="background-color: #ecf8ff;" aria-labelledby="servicesDropdown">
+                <li><a class="dropdown-item"  href="#">Landing Page</a></li>
+                <li><a class="dropdown-item" href="#">Sitios Corporativos</a></li>
+                <li><a class="dropdown-item" href="#">Tiendas Virtuales</a></li>
+                <li><a class="dropdown-item" href="#">Mantenimiento</a></li>
+              </ul>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">PROYECTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACTO</a>
+            </li>
+          </ul>
         </div>
-            <img src="img/foto_inicio_sf.png" id="img_header" alt="">
-    </header>
-    <main>
-        <article>
-            <section id="sobre_me" class="section_sobreMe">
-                <h1>Sobre Me</h1>
-                <p>¡Hola! Soy una apasionada desarrolladora frontend y estudiante de ingeniería en sistemas, comprometida con la creación de experiencias digitales cautivadoras.<br>
-                    Mi fascinación por la tecnología se combina con una curiosidad insaciable, impulsándome a explorar 
-                    nuevas soluciones y mantenerme al tanto de las <br> últimas tendencias en desarrollo web. 
-                    Cuando no estoy inmersa en líneas de código, disfruto de sumergirme en las páginas de un buen libro,<br>
-                    desafiarme en el gimnasio para mantener un equilibrio saludable y compartir momentos entrañables con mis 
-                    adorables mascotas. <br> Mi viaje profesional y académico refleja mi compromiso con el aprendizaje continuo y
-                    la búsqueda constante de la excelencia en el mundo digital.
-                </p>
-                <h2>Mis Skills</h2>
-                <div class="div_skills">
-                    <div class="skill s_html">
-                        <h2>HTML</h2>
-                        <img src="img/html-5.png" width="50px" alt="">
-                    </div>
-                    <div class="skill s_css">
-                        <h2>CSS</h2>
-                        <img src="img/css-3.png" width="50px" alt="">
-                    </div>
-                    <div class="skill s_javascript">
-                        <h2>JavaScript</h2>
-                        <img src="img/js.png" width="50px" alt="">
-                    </div>
-                    <div class="skill s_react">
-                        <h2>REACT JS</h2>
-                        <img src="img/physics.png" width="50px" alt="">
-                    </div>
-                    <div class="skill s_python">
-                        <h2>PYTHON</h2>
-                        <img src="img/python.png" width="50px" alt="">
-                    </div>
-                </div>
-            </section>
-            <section id="educacion" class="section_educacion">
-                <h1>Educacion</h1>
-                <p>ingeniería en sistemas UTN FRC</p>
-                <p>CoderHouse</p>
-            </section>
-            <section id="proyectos" class="section_proyectos">
-                <h1>Proyectos</h1>
-                <div class="div_proyectos">
-                    <div class="card card1">
-                        <h2>Proyecto 1</h2>
-                        <img src="img/fondo_index.jpg" width="150px" alt="Proyecto 1">
-                    </div>
-                    <div class="card card2">
-                        <h2>Proyecto 2</h2>
-                        <img src="img/fondo_index.jpg" width="150px" alt="Proyecto 2">
-                    </div>
-                    <div class="card card3">
-                        <h2>Proyecto 3</h2>
-                        <img src="img/fondo_index.jpg" width="150px" alt="Proyecto 3">
-                    </div>
-                    <div class="card card4">
-                        <h2>Proyecto 4</h2>
-                        <img src="img/fondo_index.jpg" width="150px" alt="Proyecto 4">
-                    </div>
-                </div>
-            </section>
-            <section id="contacto" class="section_contacto">
-                <h1>Contacto</h1>
-                <div class="div_contacto">
-                    <a href="https://instagram.com/agosnieto42?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="img/instagram.png" width="50px" alt="Instagram"></a>
-                    <a href="https://www.linkedin.com/in/jael-agostina-nieto-camino-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="img/linkedin.png" width="50px" alt="LinkedIn"></a>
-                    <a href="mailto:jagosnietoc@gmail.com" target="_blank"><img src="img/email.png" width="60px" alt="Email"></a>
-                </div>
-                
-            </section>
-        </article>
-    </main>
-    <footer class="footer"></footer>
+      </div>
+    </nav>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+      <div class="text-center">
+        <h1 id="eslogan">"Tu presencia en línea, nuestra pasión <br> por el perfeccionamiento"</h1>
+        <a href="https://wa.me/3517172422" target="_blank" style="text-decoration: none;"><button id="btn-inicio">¡Hablemos de tu proyecto!</button></a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="services" class="min-height">
+      <h2 class="title-section m-5">Servicios</h2>
+      <p class="text-services">En JA Desarrollo Web diseñamos sitios 100% personalizados, adaptados a las necesidades de cada cliente.
+        No utilizamos WordPress ni plantillas prediseñadas,<br> lo que garantiza un <strong>diseño único</strong> y <strong>profesional</strong>.
+        Todos nuestros servicios incluyen un año de hosting, dominio personalizado, y certificados SSL para que tu página
+        sea segura y confiable desde el primer día</p>
+      <div class="row row-cols-* row-cols-md-4 g-4 m-5">
+        <div class="col">
+          <div class="card-services text-center">
+            <div class="d-flex justify-content-center">
+              <img src="./img/icons8-desarrollo-web-100.png" class="card-img-top w-25" alt="Desarrollo de Sitios Web">
+            </div>
+            <div class="card-body m-3">
+              <a class="card-title-services" id="landing-page" href="landing.html" target="_blank">Landing Page</a>
+              <p class="card-text text-light">Páginas diseñadas para atraer clientes y convertir visitas en ventas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-services text-center">
+            <div class="d-flex justify-content-center">
+              <img src="./img/icons8-negocio-100.png" class="card-img-top w-25" alt="Diseño Web">
+            </div>
+            <div class="card-body m-3">
+              <a class="card-title-services" id="sitios-corporativos" href="sitios-corporativos.html" target="_blank">Sitios Corporativos</a>
+              <p class="card-text text-light">Tu empresa, online, con un diseño profesional y funcional.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-services text-center">
+            <div class="d-flex justify-content-center">
+              <img src="./img/icons8-ecommerce-98.png" class="card-img-top w-25" alt="Tiendas Virtuales">
+            </div>
+            <div class="card-body m-3">
+              <a class="card-title-services" id="tiendas-virtuales" href="tiendas-virtuales.html" target="_blank">Tiendas virtuales</a>
+              <p class="card-text text-light">Tu tienda online, personalizada para ofrecer una experiencia de compra única.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-services text-center">
+            <div class="d-flex justify-content-center">
+              <img src="./img/icons8-mantenimiento-100.png" class="card-img-top w-25" alt="Mantenimiento de Sitios Web">
+            </div>
+            <div class="card-body m-3">
+              <a class="card-title-services" id="mantenimiento" href="mantenimiento-web.html" target="_blank">Mantenimientos de Sitios Web</a>
+              <p class="card-text text-light">Actualización y mantenimiento de sitios web existentes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-us" class="min-height">
+      <h2 class="m-5 title-section">Nosotros</h2>
+      <div class="text-about">
+        <p><strong>En JA Desarrollo Web, creemos en el poder de las ideas y en cómo un diseño web estratégico puede transformar negocios.</strong></p>
+        <p>Desde el primer contacto hasta la entrega final, prestamos atención a cada detalle, asegurándonos de que cada proyecto refleje la esencia única de tu negocio.</p>
+        <p><strong>Junto a profesionales especializados, creamos páginas que no solo son atractivas visualmente, sino que también ofrecen resultados reales.</strong></p>
+        <p>Nuestro equipo de expertos trabaja con dedicación para garantizar que tu producto sea único, brindándote la mejor atención en cada etapa del proceso.</p>
+        <p><strong>Combinamos experiencia técnica, creatividad y un compromiso total con la excelencia</strong> para asegurarnos de que tu sitio web sea una herramienta clave para el éxito de tu marca.</p>
+        <p>Al elegir JA Desarrollo Web, no solo obtienes un servicio personalizado, sino también un aliado comprometido con el crecimiento de tu negocio.</p>
+      </div>
+    </section>
+    <section id="projects" class="min-height">
+      <h2 class="title-section">Proyectos</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <a href="" target="_blank"><img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+          /></a>
+          <a href="" target="_blank"><img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+            class="w-100 h-50 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+          /></a>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <a href="" target="_blank"><img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+            class="w-100 h-50 shadow-1-strong rounded mb-4"
+            alt="Mountains in the Clouds"
+          /></a>
+          <a href="" target="_blank"><img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+          /></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contact" class="min-height">
+    <h2 class="title-section">Contacto</h2>
+    <div id="icon-contact">
+      <a href="https://www.instagram.com/agosnieto42/profilecard/?igsh=MTlzd3Q1M2VxcXVjZQ==" target="_blank" class="icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://wa.me/3517172422" target="_blank" class="icon">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/jael-agostina-nieto-camino-?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FiF%2FWppsRny2JB99jlFvVA%3D%3D" target="_blank" class="icon">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <div class="text-center p-3" style= "background: linear-gradient(#ecf8ff, #d5edff); border: 1px solid #7fd0ff;">
+      © 2024 Copyright:
+      <a href="">JA Desarrollo Web</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
