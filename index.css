@@ -241,7 +241,7 @@ p{
 @media screen and (max-width:574px){
     .navbar-brand img{
         content: url(./img/bulbo.png);
-        width: 60px;
+        width: 30px;
     }
     #eslogan{
         font-size: 25px;
