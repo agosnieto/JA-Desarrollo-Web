@@ -5,13 +5,6 @@
   font-style: normal;
   margin-top: 60px;
 }
-/* .title-offert-two{
-  color: red;
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-top: 60px;
-} */
 .p-description-offert{
   color: #006cff;
   font-size: 20px
@@ -90,7 +83,7 @@
 
 }
 .p-functions{
-  color: #006cff;
+  color: #0344ca;
 }
 .p-benefit{
   line-height: 1.8;
@@ -123,3 +116,4 @@
 .card-footer{
   background-color: transparent !important;
 }
+
