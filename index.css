@@ -8,7 +8,9 @@ header{
     background: linear-gradient(#ecf8ff, #d5edff);
     color: #0a3d9e;
 }
-
+.img-logo{
+    width: 250px;
+}
 .navbar{
     background-color: #b3e1ff;
     padding: 0;
@@ -30,7 +32,7 @@ section{
 }
 #eslogan{
     font-family: "Libre Baskerville", serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     margin-bottom: 15px;
 }
@@ -120,14 +122,14 @@ p{
 .text-services strong{
     color: #0a3d9e;
 }
-#contact{
+/* #contact{
     margin-top: 50px;
-}
+} */
 #icon-contact{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    /* margin-top: 30px; */
+    /* margin-bottom: 15px; */
 }
 .fab{
     color:#43b3ff;
@@ -245,8 +247,7 @@ p{
 @media screen and (max-width:574px){
     .img-logo{
         content: url(./img/bulbo.png);
-        width: 30px Importan!;
-        height: auto;
+        width: 60px;
     }
     #eslogan{
         font-size: 25px;
