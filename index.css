@@ -120,10 +120,14 @@ p{
 .text-services strong{
     color: #0a3d9e;
 }
-
+#contact{
+    margin-top: 50px;
+}
 #icon-contact{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 .fab{
     color:#43b3ff;
@@ -239,7 +243,7 @@ p{
 }
 
 @media screen and (max-width:574px){
-    .navbar-brand img{
+    .img-logo{
         content: url(./img/bulbo.png);
         width: 30px;
     }
