@@ -136,7 +136,7 @@ p{
     font-size: 30px;
     margin: 10px;
 }
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
     .img-logo{
         width: 350px;
     }
@@ -176,29 +176,29 @@ p{
     .fab{
         font-size: 60px;
     }
-
-}
+} */
 
 @media screen and (max-width: 1280px) {
-    .img-logo{
+    /* .img-logo{
         width: 350px;
-    }
+    } */
     #eslogan{
         margin-top: 20px;
         font-size: 50px;
     }
     #btn-inicio{
         margin-top:70px;
-        width: 570px;
-        height: 100px;
-        font-size: 45px;
+        width: 450px;
+        height: 80px;
+        font-size: 35px;
+        border-radius: 50px;
     }
     
     .title-section{
-        font-size:45px;
+        font-size:40px;
     }
     .text-services, .text-about{
-        font-size: 30px;
+        font-size: 25px;
         max-width: 820px;
         margin: auto;
         text-align: justify;
@@ -208,13 +208,13 @@ p{
         height: 350px;
     }
     .card-title-services{
-        font-size: 24px;
-    }
-    .card-text{
         font-size: 22px;
     }
+    .card-text{
+        font-size: 20px;
+    }
     .fab{
-        font-size: 55px;
+        font-size: 40px;
     }
 }
 @media screen and (max-width: 992px) {
@@ -230,6 +230,7 @@ p{
         width: 570px;
         height: 100px;
         font-size: 45px;
+        border-radius: 35px;
     }
     .navbar a {
         font-size: 25px;
@@ -274,7 +275,7 @@ p{
         width: 325px;
         height: 60px;
         font-size: 25px;
-        border-radius: 15px;
+        border-radius: 50px;
     }
     .navbar a {
         font-size: 20px;
@@ -317,6 +318,7 @@ p{
         width: 300px;
         height: 70px;
         font-size: 23px;
+        border-radius: 35px;
     }
     .text-services{
         text-align: justify;
