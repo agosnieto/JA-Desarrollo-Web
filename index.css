@@ -136,10 +136,137 @@ p{
     font-size: 30px;
     margin: 10px;
 }
+@media screen and (max-width: 1440px) {
+    .img-logo{
+        width: 350px;
+    }
+    #eslogan{
+        margin-top: 60px;
+        font-size: 60px;
+    }
+    #btn-inicio{
+        margin-top:90px;
+        width: 550px;
+        height: 110px;
+        font-size: 45px;
+    }
+    .navbar a{
+        font-size: 27px;
+    }
+   
+    .title-section{
+        font-size:60px;
+    }
+    .text-services, .text-about{
+        font-size: 35px;
+        max-width: 950px;
+        margin: auto;
+        text-align: justify;
+    }
+    .card-services{
+        width: 310px;
+        height: 400px;
+    }
+    .card-title-services{
+        font-size: 27px;
+    }
+    .card-text{
+        font-size: 25px;
+    }
+    .fab{
+        font-size: 60px;
+    }
+
+}
 
 @media screen and (max-width: 1280px) {
+    .img-logo{
+        width: 350px;
+    }
     #eslogan{
         margin-top: 20px;
+        font-size: 50px;
+    }
+    #btn-inicio{
+        margin-top:70px;
+        width: 570px;
+        height: 100px;
+        font-size: 45px;
+    }
+    
+    .title-section{
+        font-size:45px;
+    }
+    .text-services, .text-about{
+        font-size: 30px;
+        max-width: 820px;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .card-services{
+        height: 350px;
+    }
+    .card-title-services{
+        font-size: 24px;
+    }
+    .card-text{
+        font-size: 22px;
+    }
+    .fab{
+        font-size: 55px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .img-logo{
+        width: 350px;
+    }
+    #eslogan{
+        font-size: 60px;
+        margin: 5px;
+    }
+    #btn-inicio{
+        margin-top:150px;
+        width: 570px;
+        height: 100px;
+        font-size: 45px;
+    }
+    .navbar a {
+        font-size: 25px;
+    }
+    .dropdown-item{
+        font-size: 20px;
+    }
+    .title-section{
+        font-size:60px;
+    }
+    .text-services ,.text-about{
+        max-width: 700px;
+        margin: auto;
+        text-align: justify;
+        font-size: 22px;
+    }
+    .card-services{
+        width: 270px;
+        height: 420px;
+    }
+    .card-title-services{
+        font-size: 27px;
+    }
+    .card-text{
+        font-size: 25px;
+        margin-top: 3px;
+    }
+    .title-section{
+        font-size: 60px;
+    }
+    .fab{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 768px){
+    #eslogan{
+        margin-top: 40px;
         font-size: 50px;
     }
     #btn-inicio{
@@ -149,90 +276,24 @@ p{
         font-size: 25px;
         border-radius: 15px;
     }
-    .navbar a{
-        font-size: 16px;
-    }
-    .title-section{
-        font-size:45px;
-    }
-    .text-services{
-        font-size: 22px;
-        max-width: 950px;
-        margin: 0 auto;
-        text-align: justify;
-
-    }
-    .text-about{
-        font-size: 22px;
-    }
-    .card-services{
-        height: 320px;
-    }
-    .card-title-services{
+    .navbar a {
         font-size: 20px;
     }
-    .card-text{
-        font-size: 20px;
+    .dropdown-item{
+        font-size: 18px;
     }
-}
-@media screen and (max-width: 992px) {
-    #eslogan{
-        font-size: 50px;
-    }
-    #btn-inicio{
-        margin-top:150px;
-        width: 325px;
-        height: 70px;
-        font-size: 25px;
-    }
-    .title-section{
-        font-size:50px;
-    }
-    .text-services{
-        max-width: 700px;
-        margin: 0 auto;
-        text-align: justify;
-    }
-    .text-about{
-        /* font-size: 24px; */
-        max-width: 700px;
-        margin: 0 auto;
-        text-align: justify;
-    }
-    /* .container-services-index{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-    } */
     .card-services{
-        width: 250px;
+        width: 300px;
         height: 300px;
     }
     .card-title-services{
         font-size: 20px;
     }
-    .card-text{
-        font-size: 20px;
-    }
-  }
-
-@media screen and (max-width: 768px){
-    .card-services{
-        width: 300px;
-        height: 250px;
-    }
     .card-services .card-text {
         font-size: 18px; 
     }
-    .text-about{
-        max-width: 800px;
-        padding: 5px;
-        text-align: justify; 
-        line-height: 1.8; 
-        font-weight: 400;
-        color: #071739;
+    .title-section{
+        font-size: 45px;
     }
     .card-project{
         width: 200px;
@@ -243,11 +304,10 @@ p{
     }
 
 }
-
-@media screen and (max-width:574px){
+@media screen and (max-width: 480px) {
     .img-logo{
         content: url(./img/bulbo.png);
-        width: 60px;
+        width: 70px;
     }
     #eslogan{
         font-size: 25px;
@@ -261,16 +321,21 @@ p{
     .text-services{
         text-align: justify;
         margin: 15px;
-
+        font-size: 18px;
     }
     .card-services{
         height: 300px;
     }
+    .card-title-services{
+        font-size: 20px;
+    }
     .card-text{
-        font-size: 65px;
+        font-size: 18px;
     }
     .text-about{
-        margin: 5px;
+        text-align: justify;
+        margin: 15px;
+        font-size: 18px;
     }
     .img-proyect{
         height: 300px;
@@ -280,5 +345,13 @@ p{
         border: none;
         width: 300px;
       }
-      
+    .title-section{
+        font-size: 30px;
+    }
+    .fab{
+        font-size: 40px;
+    }
+
 }
+
+
