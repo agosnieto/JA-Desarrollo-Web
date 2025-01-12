@@ -37,7 +37,7 @@ section{
     font-weight: 500;
     font-style: normal;
     margin-bottom: 40px;
-    font-size: 40px;
+    font-size: 45px;
 }
 h5{
     font-family: "Libre Baskerville", serif;
@@ -89,7 +89,7 @@ p{
     background:linear-gradient(#006cff,#0055fb);
     border-radius: 10px;
     padding: 20px;
-    width: 250px;
+    width: 200px;
     height: 300px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -197,7 +197,7 @@ p{
     #btn-inicio{
         margin-top:80px;
         width: 325px;
-        height: 60px;
+        height: 100px;
         font-size: 25px;
         border-radius: 50px;
     }
@@ -241,10 +241,9 @@ p{
     }
     #btn-inicio{
         margin-top:100px;
-        width: 300px;
+        width: 280px;
         height: 70px;
-        font-size: 23px;
-        border-radius: 35px;
+        font-size: 20px;
     }
     .text-services{
         text-align: justify;
@@ -263,7 +262,7 @@ p{
     .text-about{
         text-align: justify;
         margin: 15px;
-        font-size: 18px;
+        font-size: 15px;
     }
     .img-proyect{
         height: 300px;
@@ -278,6 +277,9 @@ p{
     }
     .fab{
         font-size: 40px;
+    }
+    .title-offert{
+        margin-top: 70px;
     }
 
 }
