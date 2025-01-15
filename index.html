@@ -6,9 +6,9 @@
   <meta name="description" content="Ofrecemos servicios de desarrollo web y diseño para ayudarte a destacar en línea. 
   Calidad, confianza y exclusividad garantizadas.">
   <meta property="og:title" content="Servicios de Desarrollo Web | JA Desarrollo Web">
-<meta property="og:description" content="Ofrecemos servicios de desarrollo web, diseño y marketing para destacar en línea.">
-<meta property="og:image" content="https://agosnieto.github.io/JA-Desarrollo-Web/img/imagen.jpg">
-<meta property="og:url" content="https://www.jadesarrolloweb.com">
+  <meta property="og:description" content="Ofrecemos servicios de desarrollo web y diseño para destacar en línea.">
+  <meta property="og:image" content="https://agosnieto.github.io/JA-Desarrollo-Web/img/bulbo.png">
+  <meta property="og:url" content="https://www.jadesarrolloweb.com">
 
   <meta name="keywords" content="desarrollo web, diseño web,sitios web profesionales, Córdoba, Internacional">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,7 +60,7 @@
     <div class="d-flex justify-content-center align-items-center vh-100">
       <div class="text-center">
         <h1 id="eslogan">"Tu presencia en línea, nuestra pasión <br> por el perfeccionamiento"</h1>
-        <a href="https://wa.me/3517172422" target="_blank" style="text-decoration: none;"><button id="btn-inicio">¡Hablemos de tu proyecto!</button></a>
+        <a href="https://wa.link/eic10h" target="_blank" style="text-decoration: none;"><button id="btn-inicio">¡Hablemos de tu proyecto!</button></a>
       </div>
     </div>
   </header>
@@ -165,7 +165,7 @@
       <a href="https://www.instagram.com/ja_desarrolloweb?igsh=MTRndm1heDVwZGEzNQ==" target="_blank" class="icon">
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="https://wa.me/3517172422" target="_blank" class="icon">
+      <a href="https://wa.link/eic10h" target="_blank" class="icon">
         <i class="fab fa-whatsapp"></i>
       </a>
       <!-- <a href="https://www.linkedin.com/in/jael-agostina-nieto-camino-?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FiF%2FWppsRny2JB99jlFvVA%3D%3D" target="_blank" class="icon">
@@ -173,10 +173,30 @@
       </a> -->
     </div>
     <div class="text-center p-3" style= "background: linear-gradient(#ecf8ff, #d5edff); border: 1px solid #7fd0ff;">
-      © 2024 Copyright:
+      © 2025 Copyright:
       <a href="">JA Desarrollo Web</a>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const navLinks = document.querySelectorAll(".navbar-collapse .nav-link, .navbar-collapse .dropdown-item");
+      const navbarCollapse = document.querySelector(".navbar-collapse");
+  
+      navLinks.forEach((link) => {
+        link.addEventListener("click", function (event) {
+          if (link.classList.contains("dropdown-toggle")) {
+            return;
+          }
+          if (navbarCollapse.classList.contains("show")) {
+            navbarCollapse.classList.remove("show"); 
+            document.querySelector(".navbar-toggler").classList.add("collapsed");
+            document.querySelector(".navbar-toggler").setAttribute("aria-expanded", "false");
+          }
+        });
+      });
+    });
+  </script>  
+  
 </body>
 </html>
